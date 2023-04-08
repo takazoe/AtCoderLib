@@ -15,9 +15,9 @@ sys.stdin = io.StringIO(_INPUT)
 #=======================
 
 
-def II(): return int(input())
-def MII(): return map(int, input().split())
-def LMII(): return list(map(int, input().split()))
+def II(): return int(input()) # a = 1
+def MII(): return map(int, input().split()) # a,b,c = 1 2 3
+def LMII(): return list(map(int, input().split())) # A = [1,2,3]
 def LMIIS(n): return [LMII() for _ in range(n)]
 def PLUS(x,y): return [[x+1,y],[x,y+1],[x-1,y],[x,y-1]]
 def YES(): print('Yes'), exit()
